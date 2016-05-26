@@ -7,7 +7,9 @@
   <%= csrf_meta_tags %>
   <style>
     html { 
-      background: url(<%= asset_path 'timer_bg.jpg' %>) no-repeat center center fixed; 
+      /*background: url(<%= asset_path 'timer_bg.jpg' %>) no-repeat center center fixed; */
+      background: url(<%= @bg_image_url%>) no-repeat center center fixed;
+      
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
