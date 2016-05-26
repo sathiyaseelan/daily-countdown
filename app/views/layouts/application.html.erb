@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>Daily Countdown</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <style>
+    html { 
+      background: url(<%= asset_path 'timer_bg.jpg' %>) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .clock-position {
+        width: 50%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+  </style>
 </head>
 <body>
 
