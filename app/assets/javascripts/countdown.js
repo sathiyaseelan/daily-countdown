@@ -12,7 +12,7 @@ function get_remaining_time() {
 
 		$(document).ready(function() {
 			var clock;
-
+			$("#clock").draggable();
 			clock = $('.clock').FlipClock({
 		        clockFace: 'HourlyCounter',
 		        autoStart: true,
