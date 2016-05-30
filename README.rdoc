@@ -1,28 +1,18 @@
-== README
+== Daily Countdown Timer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Simple(but beautiful) timer will tell you how much time is left for the day.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+So keep watching, be *productive*.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+===Features
+
+
+* Beautiful  and new backgrounds -( with the integration of bing images)
+* Draggable clock - You can place the clock anywhere around the page.
+
+
+===Limitations
+
+
+* Not responsive.( will be fixed in future)
