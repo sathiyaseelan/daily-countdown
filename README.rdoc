@@ -4,6 +4,9 @@ This Simple(but beautiful) timer will tell you how much time is left for the day
 
 So keep watching, be *productive*.
 
+Currently deployed in heroku and can be accessed using below URL.
+
+http://daily-countdown.herokuapp.com
 
 ===Features
 
